@@ -21,7 +21,7 @@ const Film = (props) => {
     }
 
     return (
-        <>
+        <div>
           <div>
               <h2>Our curator reccomends:</h2>
               <h1>{film.properties.title}</h1>
@@ -29,7 +29,7 @@ const Film = (props) => {
               <p>{film.properties.release_date}</p>
           </div>
           <button onClick={handleClick}>Another Reccomendation</button>
-        </>
+        </div>
     );
 };
 
