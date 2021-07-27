@@ -1,4 +1,3 @@
-/* eslint-disable default-case */
 import { FETCH_FILM_FAIL, FETCH_FILM_LOADING, FETCH_FILM_SUCCESS} from '../actions';
 
 const initialState = {
